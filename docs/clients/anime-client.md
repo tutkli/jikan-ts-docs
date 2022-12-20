@@ -17,7 +17,7 @@ Client used to access the Anime Endpoints:
 - [AnimeStatistics](https://docs.api.jikan.moe/#tag/anime/operation/getAnimeStatistics)
 - [AnimeRecommendations](https://docs.api.jikan.moe/#tag/anime/operation/getAnimeRecommendations)
 
-See also: [JikanAPI](https://docs.api.jikan.moe/)
+See also: [JikanAPI Documentation](https://docs.api.jikan.moe/)
 
 
 ## getAnimeSearch `/anime`
@@ -35,14 +35,14 @@ Search animes within the given filter params. If no params are given, returns al
 ### Example
 
 ```ts
-import { AnimeClient, AnimeSearchParams } from '@tutkli/jikan-ts';
+import { AnimeClient, AnimeSearchParams, AnimeType, AnimeStatus, SearchOrder } from '@tutkli/jikan-ts';
 
 (async () => {
     const animeClient = new AnimeClient();
 
     const searchParams: AnimeSearchParams = {
-        type: MangaType.manwha,
-        status: MangaStatus.publishing,
+        type: AnimeType.tv,
+        status: AnimeStatus.airing,
         order_by: SearchOrder.score
     }
 
