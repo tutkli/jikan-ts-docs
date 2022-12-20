@@ -33,7 +33,11 @@ export default {
                     { text: 'MangaClient', link: '/clients/manga-client' },
                     { text: 'TopClient', link: '/clients/top-client' },
                 ]
-            }
+            },
+            { text: 'Typings', items: [
+                    { text: 'Params', link: '/typings/params' },
+                    { text: 'Anime', link: '/typings/anime' }
+                ]}
         ],
         footer: {
             message: 'Released under the <a href="https://github.com/tutkli/jikan-ts/blob/main/LICENSE">MIT License</a>.',
