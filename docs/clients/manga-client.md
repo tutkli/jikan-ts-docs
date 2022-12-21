@@ -5,8 +5,8 @@
 Client used to access the Manga Endpoints:
 
 - [MangaSearch](#getmangasearch-manga)
-- [MangaById](#getmangafullbyid-manga-id)
-- [MangaFullById](#getmangabyid-manga-id-full)
+- [MangaById](#getmangabyid-manga-id)
+- [MangaFullById](#getmangafullbyid-manga-id-full)
 - [MangaCharacters](#getmangacharacters-manga-id-characters)
 - [MangaPictures](#getmangapictures-manga-id-pictures)
 - [MangaStatistics](#getmangastatistics-manga-id-statistics)
