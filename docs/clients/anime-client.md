@@ -70,7 +70,7 @@ Get partial data of an Anime.
 ### Example
 
 ```ts
-import { AnimeClient } from '@tutkli/jikan-ts';
+import { AnimeClient, JikanResponse, Anime } from '@tutkli/jikan-ts';
 
 (async () => {
     const animeClient = new AnimeClient();
@@ -99,7 +99,7 @@ Get complete data of an Anime.
 ### Example
 
 ```ts
-import { AnimeClient } from '@tutkli/jikan-ts';
+import { AnimeClient, JikanResponse, Anime } from '@tutkli/jikan-ts';
 
 (async () => {
     const animeClient = new AnimeClient();
@@ -128,7 +128,7 @@ Get Characters of a specific Anime.
 ### Example
 
 ```ts
-import { AnimeClient, AnimeCharacter } from '@tutkli/jikan-ts';
+import { AnimeClient, JikanResponse, AnimeCharacter } from '@tutkli/jikan-ts';
 
 (async () => {
     const animeClient = new AnimeClient();
@@ -157,7 +157,7 @@ Get Staff of a specific Anime.
 ### Example
 
 ```ts
-import { AnimeClient, AnimeStaff } from '@tutkli/jikan-ts';
+import { AnimeClient, JikanResponse, AnimeStaff } from '@tutkli/jikan-ts';
 
 (async () => {
     const animeClient = new AnimeClient();
@@ -186,7 +186,7 @@ Get a list of all the episodes of a specific Anime.
 ### Example
 
 ```ts
-import { AnimeClient, AnimeEpisode } from '@tutkli/jikan-ts';
+import { AnimeClient, JikanResponse, AnimeEpisode } from '@tutkli/jikan-ts';
 
 (async () => {
     const animeClient = new AnimeClient();
@@ -216,7 +216,7 @@ Get a single Episode of a specific Anime by the episode ID.
 ### Example
 
 ```ts
-import { AnimeClient, AnimeEpisode } from '@tutkli/jikan-ts';
+import { AnimeClient, JikanResponse, AnimeEpisode } from '@tutkli/jikan-ts';
 
 (async () => {
     const animeClient = new AnimeClient();
@@ -245,7 +245,7 @@ Get Videos related to a specific Anime.
 ### Example
 
 ```ts
-import { AnimeClient, AnimeVideos } from '@tutkli/jikan-ts';
+import { AnimeClient, JikanResponse, AnimeVideos } from '@tutkli/jikan-ts';
 
 (async () => {
     const animeClient = new AnimeClient();
@@ -274,7 +274,7 @@ Get Episode Videos related to a specific Anime.
 ### Example
 
 ```ts
-import { AnimeClient, AnimeEpisodeVideo } from '@tutkli/jikan-ts';
+import { AnimeClient, JikanResponse, AnimeEpisodeVideo } from '@tutkli/jikan-ts';
 
 (async () => {
     const animeClient = new AnimeClient();
@@ -303,7 +303,7 @@ Get Pictures related to a specific Anime.
 ### Example
 
 ```ts
-import { AnimeClient, AnimePicture } from '@tutkli/jikan-ts';
+import { AnimeClient, JikanResponse, AnimePicture } from '@tutkli/jikan-ts';
 
 (async () => {
     const animeClient = new AnimeClient();
@@ -332,7 +332,7 @@ Get Statistics related to a specific Anime.
 ### Example
 
 ```ts
-import { AnimeClient, AnimeStatistics } from '@tutkli/jikan-ts';
+import { AnimeClient, JikanResponse, AnimeStatistics } from '@tutkli/jikan-ts';
 
 (async () => {
     const animeClient = new AnimeClient();
@@ -361,7 +361,7 @@ Get Recommendations related to a specific Anime.
 ### Example
 
 ```ts
-import { AnimeClient, Recommendation } from '@tutkli/jikan-ts';
+import { AnimeClient, JikanResponse, Recommendation } from '@tutkli/jikan-ts';
 
 (async () => {
     const animeClient = new AnimeClient();

@@ -14,14 +14,14 @@ Access the specific client property inside the JikanClient.
 `jikanClient.anime`
 
 ```ts
-import { JikanClient } from '@tutkli/jikan-ts';
+import { JikanClient, JikanResponse, Anime } from '@tutkli/jikan-ts';
 
 (async () => {
   const jikanClient = new JikanClient();
 
   await jikanClient.anime
     .getAnimeById(1)
-    .then((jikanResponse) => console.log(jikanResponse.data.title)) // will output "Cowboy Bebob"
+    .then((jikanResponse: JikanResponse<Anime>) => console.log(/* your code */)) // will output "Cowboy Bebob"
     .catch((error) => console.error(error));
 })();
 ```
@@ -31,14 +31,14 @@ import { JikanClient } from '@tutkli/jikan-ts';
 `jikanClient.manga`
 
 ```ts
-import { JikanClient } from '@tutkli/jikan-ts';
+import { JikanClient, JikanResponse, Manga } from '@tutkli/jikan-ts';
 
 (async () => {
   const jikanClient = new JikanClient();
 
   await jikanClient.manga
     .getMangaSearch()
-    .then((jikanResponse) => {})
+    .then((jikanResponse: JikanResponse<Manga[]>) => {})
     .catch((error) => {});
 })();
 ```
@@ -48,14 +48,14 @@ import { JikanClient } from '@tutkli/jikan-ts';
 `jikanClient.top`
 
 ```ts
-import { JikanClient } from '@tutkli/jikan-ts';
+import { JikanClient, JikanResponse, Anime } from '@tutkli/jikan-ts';
 
 (async () => {
   const jikanClient = new JikanClient();
 
   await jikanClient.top
     .getTopAnime()
-    .then((jikanResponse) => {})
+    .then((jikanResponse: JikanResponse<Anime[]>) => {/* your code */})
     .catch((error) => {});
 })();
 ```

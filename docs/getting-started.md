@@ -13,29 +13,29 @@ yarn add @tutkli/jikan-ts # recommended
 Using a specific client, like AnimeClient:
 
 ```ts
-import { AnimeClient } from '@tutkli/jikan-ts';
+import { AnimeClient, JikanResponse, Anime } from '@tutkli/jikan-ts';
 
 (async () => {
-  const animeClient = new AnimeClient();
+    const animeClient = new AnimeClient();
 
-  await animeClient
-    .getAnimeById(1)
-    .then((jikanResponse) => console.log(jikanResponse.data.title)) // will output "Cowboy Bebob"
-    .catch((error) => console.error(error));
+    await animeClient
+        .getAnimeById(1)
+        .then((jikanResponse: JikanResponse<Anime>) => console.log(jikanResponse.data.title)) // will output "Cowboy Bebob"
+        .catch((error) => console.error(error));
 })();
 ```
 
 Or, using the JikanClient:
 
 ```ts
-import { JikanClient } from '@tutkli/jikan-ts';
+import { JikanClient, JikanResponse, Anime } from '@tutkli/jikan-ts';
 
 (async () => {
   const jikanClient = new JikanClient();
 
   await jikanClient.anime
     .getAnimeById(1)
-    .then((jikanResponse) => console.log(jikanResponse.data.title)) // will output "Cowboy Bebob"
+    .then((jikanResponse: JikanResponse<Anime>) => console.log(jikanResponse.data.title)) // will output "Cowboy Bebob"
     .catch((error) => console.error(error));
 })();
 ```
