@@ -1,4 +1,5 @@
 export default {
+    base: '/jikan-ts-docs',
     description: 'Just playing around',
     themeConfig: {
         siteTitle: 'Jikan-ts',
