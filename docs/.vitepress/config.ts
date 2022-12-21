@@ -26,7 +26,7 @@ export default {
                 ]
             },
             { text: 'Guides', items: [
-                    { text: 'Client', link: 'guides/client' },
+                    { text: 'Client', link: '/guides/client' },
                     { text: 'Cache', link: '/guides/cache' },
                     { text: 'Logging', link: '/guides/logging' },
                 ]
