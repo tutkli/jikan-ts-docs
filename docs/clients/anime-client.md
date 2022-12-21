@@ -4,18 +4,18 @@
 
 Client used to access the Anime Endpoints:
 
-- [AnimeSearch](https://docs.api.jikan.moe/#tag/anime)
-- [AnimeFullById](https://docs.api.jikan.moe/#tag/anime/operation/getAnimeFullById)
-- [AnimeById](https://docs.api.jikan.moe/#tag/anime/operation/getAnimeById)
-- [AnimeCharacters](https://docs.api.jikan.moe/#tag/anime/operation/getAnimeCharacters)
-- [AnimeStaff](https://docs.api.jikan.moe/#tag/anime/operation/getAnimeStaff)
-- [AnimeEpisodes](https://docs.api.jikan.moe/#tag/anime/operation/getAnimeEpisodes)
-- [AnimeEpisodeById](https://docs.api.jikan.moe/#tag/anime/operation/getAnimeEpisodeById)
-- [AnimeVideos](https://docs.api.jikan.moe/#tag/anime/operation/getAnimeVideos)
-- [AnimeVideosEpisodes](https://docs.api.jikan.moe/#tag/anime/operation/getAnimeVideosEpisodes)
-- [AnimePictures](https://docs.api.jikan.moe/#tag/anime/operation/getAnimePictures)
-- [AnimeStatistics](https://docs.api.jikan.moe/#tag/anime/operation/getAnimeStatistics)
-- [AnimeRecommendations](https://docs.api.jikan.moe/#tag/anime/operation/getAnimeRecommendations)
+- [AnimeSearch](#getanimesearch-anime)
+- [AnimeById](#getanimebyid-anime-id)
+- [AnimeFullById](#getanimefullbyid-anime-id-full)
+- [AnimeCharacters](#getanimecharacters-anime-id-characters)
+- [AnimeStaff](#getanimestaff-anime-id-staff)
+- [AnimeEpisodes](#getanimeepisodes-anime-id-episodes)
+- [AnimeEpisodeById](#getanimeepisodebyid-anime-id-episodes-episode)
+- [AnimeVideos](#getanimevideos-anime-id-videos)
+- [AnimeVideosEpisodes](#getanimeepisodevideos-anime-id-videos-episodes)
+- [AnimePictures](#getanimepictures-anime-id-pictures)
+- [AnimeStatistics](#getanimestatistics-anime-id-statistics)
+- [AnimeRecommendations](#getanimerecommendations-anime-id-recommendations)
 
 See also: [JikanAPI Documentation](https://docs.api.jikan.moe/)
 

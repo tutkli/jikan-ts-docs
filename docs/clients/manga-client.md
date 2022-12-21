@@ -4,13 +4,13 @@
 
 Client used to access the Manga Endpoints:
 
-- [MangaSearch](https://docs.api.jikan.moe/#tag/manga)
-- [MangaFullById](https://docs.api.jikan.moe/#tag/manga/operation/getMangaFullById)
-- [MangaById](https://docs.api.jikan.moe/#tag/manga/operation/getMangaById)
-- [MangaCharacters](https://docs.api.jikan.moe/#tag/manga/operation/getMangaCharacters)
-- [MangaPictures](https://docs.api.jikan.moe/#tag/manga/operation/getMangaPictures)
-- [MangaStatistics](https://docs.api.jikan.moe/#tag/manga/operation/getMangaStatistics)
-- [MangaRecommendations](https://docs.api.jikan.moe/#tag/manga/operation/getMangaRecommendations)
+- [MangaSearch](#getmangasearch-manga)
+- [MangaById](#getmangafullbyid-manga-id)
+- [MangaFullById](#getmangabyid-manga-id-full)
+- [MangaCharacters](#getmangacharacters-manga-id-characters)
+- [MangaPictures](#getmangapictures-manga-id-pictures)
+- [MangaStatistics](#getmangastatistics-manga-id-statistics)
+- [MangaRecommendations](#getmangarecommendations-manga-id-recommendations)
 
 See also: [JikanAPI Documentation](https://docs.api.jikan.moe/)
 

@@ -4,8 +4,8 @@
 
 Client used to access the Top Endpoints:
 
-- [TopAnime](https://docs.api.jikan.moe/#tag/top/operation/getTopAnime)
-- [TopManga](https://docs.api.jikan.moe/#tag/top/operation/getTopManga)
+- [TopAnime](#gettopanime-top-anime)
+- [TopManga](#gettopmanga-top-manga)
 
 See also: [JikanAPI Documentation](https://docs.api.jikan.moe/)
 
