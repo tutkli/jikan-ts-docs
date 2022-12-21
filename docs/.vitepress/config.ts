@@ -1,6 +1,9 @@
 export default {
     base: '/jikan-ts-docs',
     description: 'Just playing around',
+    head: [
+        ['link', { rel: "shortcut icon", href: "/public/favicon.ico"}],
+    ],
     themeConfig: {
         siteTitle: 'Jikan-ts',
         socialLinks: [
