@@ -16,11 +16,11 @@ Get the current top Animes.
 
 ### Params
 
-- **[Optional]** searchParams: <a href="/typings/params#animetopparams">**AnimeTopParams**</a>
+- **[Optional]** searchParams: <a href="/jikan-ts-docs/typings/params#animetopparams">**AnimeTopParams**</a>
 
 ### Response
 
-- <a href="/guides/client#client-response">JikanResponse</a><<a href="/typings/anime#anime">Anime</a>[]>
+- <a href="/jikan-ts-docs/guides/client#client-response">JikanResponse</a><<a href="/jikan-ts-docs/typings/anime#anime">Anime</a>[]>
 
 ### Example
 
@@ -49,11 +49,11 @@ Get the current top Mangas.
 
 ### Params
 
-- **[Optional]** searchParams: <a href="/typings/params#mangatopparams">**MangaTopParams**</a>
+- **[Optional]** searchParams: <a href="/jikan-ts-docs/typings/params#mangatopparams">**MangaTopParams**</a>
 
 ### Response
 
-- <a href="/guides/client#client-response">JikanResponse</a><<a href="/typings/manga#manga">Manga</a>[]>
+- <a href="/jikan-ts-docs/guides/client#client-response">JikanResponse</a><<a href="/jikan-ts-docs/typings/manga#manga">Manga</a>[]>
 
 ### Example
 

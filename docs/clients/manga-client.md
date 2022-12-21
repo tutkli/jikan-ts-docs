@@ -21,11 +21,11 @@ Search mangas within the given filter params. If no params are given, returns al
 
 ### Params
 
-- **[Optional]** searchParams: <a href="/typings/params#mangasearchparams">**MangaSearchParams**</a>
+- **[Optional]** searchParams: <a href="/jikan-ts-docs/typings/params#mangasearchparams">**MangaSearchParams**</a>
 
 ### Response
 
-- <a href="/guides/client#client-response">JikanResponse</a><<a href="/typings/manga#manga">Manga</a>[]>
+- <a href="/jikan-ts-docs/guides/client#client-response">JikanResponse</a><<a href="/jikan-ts-docs/typings/manga#manga">Manga</a>[]>
 
 ### Example
 
@@ -58,7 +58,7 @@ Get partial data of a Manga.
 
 ### Response
 
-- <a href="/guides/client#client-response">JikanResponse</a><<a href="/typings/manga#manga">Manga</a>>
+- <a href="/jikan-ts-docs/guides/client#client-response">JikanResponse</a><<a href="/jikan-ts-docs/typings/manga#manga">Manga</a>>
 
 ### Example
 
@@ -87,7 +87,7 @@ Get complete data of a Manga.
 
 ### Response
 
-- <a href="/guides/client#client-response">JikanResponse</a><<a href="/typings/manga#manga">Manga</a>>
+- <a href="/jikan-ts-docs/guides/client#client-response">JikanResponse</a><<a href="/jikan-ts-docs/typings/manga#manga">Manga</a>>
 
 ### Example
 
@@ -116,7 +116,7 @@ Get Characters of a specific Manga.
 
 ### Response
 
-- <a href="/guides/client#client-response">JikanResponse</a><<a href="/typings/manga#mangacharacter">MangaCharacter</a>[]>
+- <a href="/jikan-ts-docs/guides/client#client-response">JikanResponse</a><<a href="/jikan-ts-docs/typings/manga#mangacharacter">MangaCharacter</a>[]>
 
 ### Example
 
@@ -145,7 +145,7 @@ Get Pictures related to a specific Manga.
 
 ### Response
 
-- <a href="/guides/client#client-response">JikanResponse</a><<a href="/typings/common#jikanimages">JikanImages</a>[]>
+- <a href="/jikan-ts-docs/guides/client#client-response">JikanResponse</a><<a href="/jikan-ts-docs/typings/common#jikanimages">JikanImages</a>[]>
 
 ### Example
 
@@ -174,7 +174,7 @@ Get Statistics related to a specific Manga.
 
 ### Response
 
-- <a href="/guides/client#client-response">JikanResponse</a><<a href="/typings/manga#mangastatistics">MangaStatistics</a>>
+- <a href="/jikan-ts-docs/guides/client#client-response">JikanResponse</a><<a href="/jikan-ts-docs/typings/manga#mangastatistics">MangaStatistics</a>>
 
 ### Example
 
@@ -203,7 +203,7 @@ Get Recommendations related to a specific Manga.
 
 ### Response
 
-- <a href="/guides/client#client-response">JikanResponse</a><<a href="/typings/common#recommendation">Recommendation</a>[]>
+- <a href="/jikan-ts-docs/guides/client#client-response">JikanResponse</a><<a href="/jikan-ts-docs/typings/common#recommendation">Recommendation</a>[]>
 
 ### Example
 

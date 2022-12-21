@@ -26,11 +26,11 @@ Search animes within the given filter params. If no params are given, returns al
 
 ### Params
 
-- **[Optional]** searchParams: <a href="/typings/params#animesearchparams">**AnimeSearchParams**</a>
+- **[Optional]** searchParams: <a href="/jikan-ts-docs/typings/params#animesearchparams">**AnimeSearchParams**</a>
 
 ### Response
 
-- <a href="/guides/client#client-response">JikanResponse</a><<a href="/typings/anime#anime">Anime</a>[]>
+- <a href="/jikan-ts-docs/guides/client#client-response">JikanResponse</a><<a href="/jikan-ts-docs/typings/anime#anime">Anime</a>[]>
 
 ### Example
 
@@ -65,7 +65,7 @@ Get partial data of an Anime.
 
 ### Response
 
-- <a href="/guides/client#client-response">JikanResponse</a><<a href="/typings/anime#anime">Anime</a>>
+- <a href="/jikan-ts-docs/guides/client#client-response">JikanResponse</a><<a href="/jikan-ts-docs/typings/anime#anime">Anime</a>>
 
 ### Example
 
@@ -94,7 +94,7 @@ Get complete data of an Anime.
 
 ### Response
 
-- <a href="/guides/client#client-response">JikanResponse</a><<a href="/typings/anime#anime">Anime</a>>
+- <a href="/jikan-ts-docs/guides/client#client-response">JikanResponse</a><<a href="/jikan-ts-docs/typings/anime#anime">Anime</a>>
 
 ### Example
 
@@ -123,7 +123,7 @@ Get Characters of a specific Anime.
 
 ### Response
 
-- <a href="/guides/client#client-response">JikanResponse</a><<a href="/typings/anime#animecharacter">AnimeCharacter</a>[]>
+- <a href="/jikan-ts-docs/guides/client#client-response">JikanResponse</a><<a href="/jikan-ts-docs/typings/anime#animecharacter">AnimeCharacter</a>[]>
 
 ### Example
 
@@ -152,7 +152,7 @@ Get Staff of a specific Anime.
 
 ### Response
 
-- <a href="/guides/client#client-response">JikanResponse</a><<a href="/typings/anime#animestaff">AnimeStaff</a>[]>
+- <a href="/jikan-ts-docs/guides/client#client-response">JikanResponse</a><<a href="/jikan-ts-docs/typings/anime#animestaff">AnimeStaff</a>[]>
 
 ### Example
 
@@ -181,7 +181,7 @@ Get a list of all the episodes of a specific Anime.
 
 ### Response
 
-- <a href="/guides/client#client-response">JikanResponse</a><<a href="/typings/anime#animeepisode">AnimeEpisode</a>[]>
+- <a href="/jikan-ts-docs/guides/client#client-response">JikanResponse</a><<a href="/jikan-ts-docs/typings/anime#animeepisode">AnimeEpisode</a>[]>
 
 ### Example
 
@@ -211,7 +211,7 @@ Get a single Episode of a specific Anime by the episode ID.
 
 ### Response
 
-- <a href="/guides/client#client-response">JikanResponse</a><<a href="/typings/anime#animeepisode">AnimeEpisode</a>>
+- <a href="/jikan-ts-docs/guides/client#client-response">JikanResponse</a><<a href="/jikan-ts-docs/typings/anime#animeepisode">AnimeEpisode</a>>
 
 ### Example
 
@@ -240,7 +240,7 @@ Get Videos related to a specific Anime.
 
 ### Response
 
-- <a href="/guides/client#client-response">JikanResponse</a><<a href="/typings/anime#animevideos">AnimeVideos</a>[]>
+- <a href="/jikan-ts-docs/guides/client#client-response">JikanResponse</a><<a href="/jikan-ts-docs/typings/anime#animevideos">AnimeVideos</a>[]>
 
 ### Example
 
@@ -269,7 +269,7 @@ Get Episode Videos related to a specific Anime.
 
 ### Response
 
-- <a href="/guides/client#client-response">JikanResponse</a><<a href="/typings/anime#animeepisodevideo">AnimeEpisodeVideo</a>[]>
+- <a href="/jikan-ts-docs/guides/client#client-response">JikanResponse</a><<a href="/jikan-ts-docs/typings/anime#animeepisodevideo">AnimeEpisodeVideo</a>[]>
 
 ### Example
 
@@ -298,7 +298,7 @@ Get Pictures related to a specific Anime.
 
 ### Response
 
-- <a href="/guides/client#client-response">JikanResponse</a><<a href="/typings/anime#animepicture">AnimePicture</a>[]>
+- <a href="/jikan-ts-docs/guides/client#client-response">JikanResponse</a><<a href="/jikan-ts-docs/typings/anime#animepicture">AnimePicture</a>[]>
 
 ### Example
 
@@ -327,7 +327,7 @@ Get Statistics related to a specific Anime.
 
 ### Response
 
-- <a href="/guides/client#client-response">JikanResponse</a><<a href="/typings/anime#animestatistics">AnimeStatistics</a>>
+- <a href="/jikan-ts-docs/guides/client#client-response">JikanResponse</a><<a href="/jikan-ts-docs/typings/anime#animestatistics">AnimeStatistics</a>>
 
 ### Example
 
@@ -356,7 +356,7 @@ Get Recommendations related to a specific Anime.
 
 ### Response
 
-- <a href="/guides/client#client-response">JikanResponse</a><<a href="/typings/common/recommendation">Recommendation</a>[]>
+- <a href="/jikan-ts-docs/guides/client#client-response">JikanResponse</a><<a href="/jikan-ts-docs/typings/common/recommendation">Recommendation</a>[]>
 
 ### Example
 

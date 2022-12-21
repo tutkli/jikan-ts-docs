@@ -64,7 +64,7 @@ enum MangaStatus {
 
 ## MangaStatistics
 
-- *extends* <a href="/typings/common#statistics">Statistics</a>
+- *extends* <a href="/jikan-ts-docs/typings/common#statistics">Statistics</a>
 
 ```ts
 interface MangaStatistics extends Statistics {
