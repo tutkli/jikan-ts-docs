@@ -92,3 +92,55 @@ enum MangaSearchOrder {
 }
 ```
 
+## JikanTopParams
+
+```ts
+interface JikanTopParams {
+  page?: number;
+  limit?: number;
+}
+```
+
+## AnimeTopParams
+
+- *extends* <a href="#jikantopparams">JikanTopParams</a>
+
+```ts
+interface AnimeTopParams extends JikanTopParams {
+  type?: AnimeType;
+  filter?: TopAnimeFilter;
+}
+```
+
+## MangaTopParams
+
+- *extends* <a href="#jikantopparams">JikanTopParams</a>
+
+```ts
+interface MangaTopParams extends JikanTopParams {
+    type?: MangaType;
+    filter: TopMangaFilter;
+}
+```
+
+## TopAnimeFilter
+
+```ts
+enum TopAnimeFilter {
+  airing = 'airing',
+  upcoming = 'upcoming',
+  bypopularity = 'bypopularity',
+  favorite = 'favorite',
+}
+```
+
+## TopMangaFilter
+
+```ts
+enum TopMangaFilter {
+  publishing = 'publishing',
+  upcoming = 'upcoming',
+  bypopularity = 'bypopularity',
+  favorite = 'favorite',
+}
+```
