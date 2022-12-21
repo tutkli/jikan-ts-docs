@@ -36,7 +36,8 @@ export default {
             },
             { text: 'Typings', items: [
                     { text: 'Params', link: '/typings/params' },
-                    { text: 'Anime', link: '/typings/anime' }
+                    { text: 'Anime', link: '/typings/anime' },
+                    { text: 'Manga', link: '/typings/manga' },
                 ]}
         ],
         footer: {

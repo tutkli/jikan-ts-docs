@@ -1,4 +1,4 @@
-# Request Params
+# Params Typings
 
 ## JikanSearchParams
 
@@ -25,7 +25,7 @@ interface JikanSearchParams {
 
 - *extends* <a href="#jikansearchparams">JikanSearchParams</a>
 
-```
+```ts
 interface AnimeSearchParams extends JikanSearchParams {
   type?: AnimeType | string;
   status?: AnimeStatus | string;
@@ -38,7 +38,7 @@ interface AnimeSearchParams extends JikanSearchParams {
 
 - *extends* <a href="#jikansearchparams">JikanSearchParams</a>
 
-```
+```ts
 interface MangaSearchParams extends JikanSearchParams {
   type?: MangaType | string;
   status?: MangaStatus | string;

@@ -30,22 +30,13 @@ Search mangas within the given filter params. If no params are given, returns al
 ### Example
 
 ```ts
-import {
-    MangaClient,
-    MangaSearchParams,
-    MangaType,
-    MangaStatus,
-    SearchOrder,
-    JikanResponse,
-    Manga } from '@tutkli/jikan-ts';
+import { MangaClient, MangaSearchParams, MangaType, JikanResponse, Manga } from '@tutkli/jikan-ts';
 
 (async () => {
     const mangaClient = new MangaClient();
 
     const searchParams: MangaSearchParams = {
-        type: MangaType.manwha,
-        status: MangaStatus.publishing,
-        order_by: SearchOrder.score
+        type: MangaType.manwha
     }
 
     await mangaClient
@@ -138,6 +129,93 @@ import { MangaClient, JikanResponse, MangaCharacter } from '@tutkli/jikan-ts';
     await mangaClient
         .getMangaCharacters(1)
         .then((jikanResponse: JikanResponse<MangaCharacter[]>) => { /* your code */ })
+        .catch((error) => console.error(error));
+})();
+```
+
+<!-- ENDPOINT SPLIT MARKER -->
+
+## getMangaPictures `/manga/{id}/pictures`
+
+Get Pictures related to a specific Manga.
+
+### Params
+
+- **[Required]** mal_id: **number**
+
+### Response
+
+- <a href="/guides/client#client-response">JikanResponse</a><<a href="/typings/common#jikanimages">JikanImages</a>[]>
+
+### Example
+
+```ts
+import { MangaClient, JikanResponse, JikanImages } from '@tutkli/jikan-ts';
+
+(async () => {
+    const mangaClient = new MangaClient();
+
+    await mangaClient
+        .getMangaPictures(1)
+        .then((jikanResponse: JikanResponse<JikanImages[]>) => { /* your code */ })
+        .catch((error) => console.error(error));
+})();
+```
+
+<!-- ENDPOINT SPLIT MARKER -->
+
+## getMangaStatistics `/manga/{id}/statistics`
+
+Get Statistics related to a specific Manga.
+
+### Params
+
+- **[Required]** mal_id: **number**
+
+### Response
+
+- <a href="/guides/client#client-response">JikanResponse</a><<a href="/typings/manga#mangastatistics">MangaStatistics</a>>
+
+### Example
+
+```ts
+import { MangaClient, JikanResponse, MangaStatistics } from '@tutkli/jikan-ts';
+
+(async () => {
+    const mangaClient = new MangaClient();
+
+    await mangaClient
+        .getMangaStatistics(1)
+        .then((jikanResponse: JikanResponse<MangaStatistics>) => { /* your code */ })
+        .catch((error) => console.error(error));
+})();
+```
+
+<!-- ENDPOINT SPLIT MARKER -->
+
+## getMangaRecommendations `/manga/{id}/recommendations`
+
+Get Recommendations related to a specific Manga.
+
+### Params
+
+- **[Required]** mal_id: **number**
+
+### Response
+
+- <a href="/guides/client#client-response">JikanResponse</a><<a href="/typings/common#recommendation">Recommendation</a>[]>
+
+### Example
+
+```ts
+import { MangaClient, JikanResponse, Recommendation } from '@tutkli/jikan-ts';
+
+(async () => {
+    const mangaClient = new MangaClient();
+
+    await mangaClient
+        .getMangaRecommendations(1)
+        .then((jikanResponse: JikanResponse<Recommendation[]>) => { /* your code */ })
         .catch((error) => console.error(error));
 })();
 ```
