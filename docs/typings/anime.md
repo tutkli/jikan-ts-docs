@@ -4,7 +4,7 @@
 
 ```ts
 interface Anime {
-    mal_id: string;
+    mal_id: number;
     url: string;
     images: JikanImages;
     trailer: AnimeYoutubeVideo;
@@ -39,7 +39,7 @@ interface Anime {
     genres: JikanResource[];
     explicit_genres: JikanResource[];
     themes: JikanResource[];
-    demographic: JikanResource[];
+    demographics: JikanResource[];
     relations?: JikanResourceRelation[];
     theme?: AnimeTheme;
     external?: JikanNamedResource[];

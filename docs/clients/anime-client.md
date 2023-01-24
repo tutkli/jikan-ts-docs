@@ -178,6 +178,7 @@ Get a list of all the episodes of a specific Anime.
 ### Params
 
 - **[Required]** mal_id: **number**
+- **[Optional]** page: **number**
 
 ### Response
 
@@ -266,6 +267,7 @@ Get Episode Videos related to a specific Anime.
 ### Params
 
 - **[Required]** mal_id: **number**
+- **[Optional]** page: **number**
 
 ### Response
 
