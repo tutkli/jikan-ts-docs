@@ -144,3 +144,19 @@ enum TopMangaFilter {
   favorite = 'favorite',
 }
 ```
+
+## JikanSeasonsParams
+
+```ts
+interface JikanSeasonsParams {
+    page?: number;
+    limit?: number;
+    filter?: AnimeType;
+}
+```
+
+## SeasonNowParams
+
+```ts
+type SeasonNowParams = Omit<JikanSeasonsParams, 'filter'>;
+```

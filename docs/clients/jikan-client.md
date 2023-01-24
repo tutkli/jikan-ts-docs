@@ -59,3 +59,20 @@ import { JikanClient, JikanResponse, Anime } from '@tutkli/jikan-ts';
     .catch((error) => {});
 })();
 ```
+
+### SeasonsClient
+
+`jikanClient.seasons`
+
+```ts
+import { JikanClient, JikanResponse, Anime } from '@tutkli/jikan-ts';
+
+(async () => {
+  const jikanClient = new JikanClient();
+
+  await jikanClient.seasons
+    .getSeasonNow()
+    .then((jikanResponse: JikanResponse<Anime[]>) => {/* your code */})
+    .catch((error) => {});
+})();
+```

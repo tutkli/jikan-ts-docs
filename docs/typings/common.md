@@ -131,3 +131,12 @@ interface JikanResourceRelation {
   entry: JikanResource[];
 }
 ```
+
+## SeasonsListData
+
+```ts
+interface SeasonsListData {
+    year: number;
+    seasons: Array<keyof typeof AnimeSeason>;
+}
+```

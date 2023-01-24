@@ -36,6 +36,7 @@ export default {
                     { text: 'AnimeClient', link: '/clients/anime-client' },
                     { text: 'MangaClient', link: '/clients/manga-client' },
                     { text: 'TopClient', link: '/clients/top-client' },
+                    { text: 'SeasonsClient', link: '/clients/seasons-client' },
                 ]
             },
             { text: 'Typings', items: [
